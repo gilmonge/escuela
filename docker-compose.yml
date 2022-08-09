@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+    mssql_escuela:
+        container_name: mssql_escuela
+        build: ./mssql
+        volumes:
+            - ./mssql/data:/var/opt/mssql/data
+        # restart: always
+        env_file:
+            - .env
+        networks:
+            - escuela-network
+        ports:
+            - 1435:1433
+    vuejs_escuela:
+        container_name: vuejs_escuela
+        build: ./p5_entornoGrafico
+        volumes:
+            - ./p5_entornoGrafico:/app
+        ports:
+            - 8080:8080
+networks:
+    escuela-network:
+        driver: bridge
+volumes:
+    data:
+    p5_entornoGrafico:

@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p4_api\\p4_api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj",
+        "projectName": "p1_Entity",
+        "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p2_conexion\\p2_conexion.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p2_conexion\\p2_conexion.csproj",
+        "projectName": "p2_conexion",
+        "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p2_conexion\\p2_conexion.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj": {
+                "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p3_logica\\p3_logica.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p3_logica\\p3_logica.csproj",
+        "projectName": "p3_logica",
+        "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p3_logica\\p3_logica.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj": {
+                "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj"
+              },
+              "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p2_conexion\\p2_conexion.csproj": {
+                "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p2_conexion\\p2_conexion.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p4_api\\p4_api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p4_api\\p4_api.csproj",
+        "projectName": "p4_api",
+        "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p4_api\\p4_api.csproj",
+        "packagesPath": "C:\\Users\\gilmo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p4_api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gilmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj": {
+                "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p1_Entity\\p1_Entity.csproj"
+              },
+              "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p3_logica\\p3_logica.csproj": {
+                "projectPath": "C:\\Users\\gilmo\\Desktop\\facel\\prueba-tecnica\\netFramework\\p3_logica\\p3_logica.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
